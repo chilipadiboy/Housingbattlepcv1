@@ -23,7 +23,7 @@ MonoBehaviour:
   m_MinSize: {x: 917, y: 563}
   m_MaxSize: {x: 22012, y: 14042}
   vertical: 1
-  controlID: 733
+  controlID: 2065
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -53,13 +53,13 @@ MonoBehaviour:
   m_MaximizeOnPlay: 1
   m_Gizmos: 0
   m_Stats: 0
-  m_SelectedSizes: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+  m_SelectedSizes: 04000000000000000000000000000000000000000000000000000000000000000000000000000000
   m_TargetDisplay: 0
   m_ZoomArea:
     m_HRangeLocked: 0
     m_VRangeLocked: 0
-    m_HBaseRangeMin: -329
-    m_HBaseRangeMax: 329
+    m_HBaseRangeMin: -205.6
+    m_HBaseRangeMax: 205.6
     m_VBaseRangeMin: -128.5
     m_VBaseRangeMax: 128.5
     m_HAllowExceedBaseRangeMin: 1
@@ -125,7 +125,7 @@ MonoBehaviour:
   m_MinSize: {x: 917, y: 442}
   m_MaxSize: {x: 22012, y: 10021}
   vertical: 0
-  controlID: 734
+  controlID: 2066
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -149,7 +149,7 @@ MonoBehaviour:
   m_MinSize: {x: 202, y: 442}
   m_MaxSize: {x: 4002, y: 8042}
   vertical: 1
-  controlID: 705
+  controlID: 2067
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -354,9 +354,9 @@ MonoBehaviour:
     height: 549
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: d0fbffff
-    m_LastClickedID: -1072
-    m_ExpandedIDs: d4fbffffd6fbffff00000000
+    m_SelectedIDs: 8e2b0000
+    m_LastClickedID: 0
+    m_ExpandedIDs: 8c7ffffff683ffff1085fffff888ffff3a89ffffc28bffffa68cffff8e90ffff9290ffffb29affff909bffff789fffff7c9fffffeabfffffb4c0ffffa0c4ffffa8c4ffffecd1ffff9ed6ffffacd7ffff94dbffffd6dbffff2eddffff3cdeffff24e2ffff66e2ffffe8e3ffffc0e4ffffa8e8fffface8ffff36edffff0ceefffff4f1fffff8f1ffffdaf4ffffd4fbffffd6fbffff000000009e5300006e540000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -374,7 +374,8 @@ MonoBehaviour:
       m_IsRenamingFilename: 0
       m_ClientGUIView: {fileID: 9}
     m_SearchString: 
-  m_ExpandedScenes: []
+  m_ExpandedScenes:
+  - menu screen
   m_CurrenRootInstanceID: 0
   m_Locked: 0
   m_CurrentSortingName: TransformSorting
@@ -440,19 +441,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets
+    - Assets/_Scenes
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/_Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\Unity Projects\Housingbattle\housingbattle4\Housing Battle
     (1)
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: ea250000
-    m_LastClickedID: 9706
+    m_SelectedIDs: ee290000
+    m_LastClickedID: 10734
     m_ExpandedIDs: 00000000ea25000018260000262700001c280000fa2800000c2900004e2a0000c02a0000d22a00005e2b00004a2e00004c2e000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -506,9 +507,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: d0fbffff
-    m_LastClickedInstanceID: -1072
-    m_HadKeyboardFocusLastEvent: 0
+    m_SelectedInstanceIDs: 8e2b0000
+    m_LastClickedInstanceID: 11150
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: dc27000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -533,7 +534,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 532}
+    m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 64
   m_DirectoriesAreaWidth: 110
 --- !u!114 &13

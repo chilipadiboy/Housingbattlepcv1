@@ -5,12 +5,12 @@ using UnityEngine.UI;
 
 public class displayhighscores : MonoBehaviour {
 
-    public Text Pusername;
+    public Username Pusername;
     public Text[] leaderBoardText;
     Highscore leaderBoardFunctions;
 	// Use this for initialization
 	void Start () {
-		for (int i=0; i < leaderBoardText.Length; i++)
+		for (int i=0; i < 5; i++)
         {
             leaderBoardText[i].text = i + 1 + ". Loading score...";
         }
@@ -32,16 +32,10 @@ public class displayhighscores : MonoBehaviour {
         }
     }
 
-    public void OnOwnScoresDownloaded(leaderScore[] highscoreList)
+	public void OnOwnScoresDownloaded(int score)
     {
-        for (int i = 0; i < leaderBoardText.Length; i++)
-        {
-            leaderBoardText[5].text ="Your Current Score" + ": ";
-            if (highscoreList.Length > i)
-            {
-                leaderBoardText[5].text += highscoreList[i].username + " - " + highscoreList[i].score;
-            }
-        }
+        leaderBoardText[5].text ="Your Current Score" + ": ";
+		leaderBoardText[5].text += score;
     }
     IEnumerator RefreshScores()
     {
@@ -56,8 +50,8 @@ public class displayhighscores : MonoBehaviour {
     {
         while (true)
         {
-            leaderBoardFunctions.getSingleHighscore(Pusername.text);
-            yield return new WaitForSeconds(5);
+			leaderBoardFunctions.getSingleHighscore(Pusername.username);
+            yield return new WaitForSeconds(20);
         }
     }
 }

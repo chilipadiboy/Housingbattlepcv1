@@ -33,8 +33,9 @@ public class Highscore : MonoBehaviour {
         if (string.IsNullOrEmpty(downloadURL.error))
         {
             Debug.Log(downloadURL.text);
-            formatScores2(downloadURL.text);
-            highscoresDisplay.OnOwnScoresDownloaded(leaderScoreList2);
+			string[] entry = downloadURL.text.Split(new char[] { '|' });
+            // formatScores2(downloadURL.text);
+			highscoresDisplay.OnOwnScoresDownloaded(int.Parse(entry[1]));
         }
         else
         {
