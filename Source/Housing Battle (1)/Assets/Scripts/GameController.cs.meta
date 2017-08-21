@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: df52f0e275f10f645845692f0dbed944
+timeCreated: 1497773014
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - house1: {fileID: 100004, guid: 3ee7f9cf03d772b4fac3e1c986ceef8a, type: 3}
+  - house2: {fileID: 100006, guid: 7b28852b55aebdb408792d51791961f3, type: 3}
+  - hotel1: {fileID: 100008, guid: ab69cd739cd1ebc49870057fd2ec8a57, type: 3}
+  - hotel2: {fileID: 100008, guid: 246fbfd5c21a811479957380f8e6fdf7, type: 3}
+  - specialHouse1: {fileID: 100008, guid: 5ab5c3abc59d58d4493d2b7ad0cc2551, type: 3}
+  - specialHouse2: {fileID: 100008, guid: b7baff2feea19e34dbed82f814ea26d1, type: 3}
+  - powerup: {fileID: 100002, guid: bfa98c4b9169d044e9e23c50a179a931, type: 3}
+  - powerUpHammer: {fileID: 100004, guid: a848fb0739f556a4e8ac7ae486aa413f, type: 3}
+  - powerUpdynamite: {fileID: 100016, guid: 9201ae0145e137d48861f93f25d447cd, type: 3}
+  - playerScore1: {instanceID: 0}
+  - playerScore2: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,131 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1457584957925728}
+  m_IsPrefabParent: 1
+--- !u!1 &1457584957925728
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4259922443955074}
+  - component: {fileID: 114842130958304484}
+  - component: {fileID: 114775140702983066}
+  m_Layer: 0
+  m_Name: GameController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4259922443955074
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1457584957925728}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114775140702983066
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1457584957925728}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 33
+    i1: 147
+    i2: 114
+    i3: 83
+    i4: 224
+    i5: 245
+    i6: 199
+    i7: 100
+    i8: 235
+    i9: 89
+    i10: 17
+    i11: 125
+    i12: 62
+    i13: 212
+    i14: 157
+    i15: 7
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0
+--- !u!114 &114842130958304484
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1457584957925728}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df52f0e275f10f645845692f0dbed944, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buttonList2:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  house1: {fileID: 100004, guid: 3ee7f9cf03d772b4fac3e1c986ceef8a, type: 3}
+  house2: {fileID: 100006, guid: 7b28852b55aebdb408792d51791961f3, type: 3}
+  hotel1: {fileID: 100008, guid: ab69cd739cd1ebc49870057fd2ec8a57, type: 3}
+  hotel2: {fileID: 100008, guid: 246fbfd5c21a811479957380f8e6fdf7, type: 3}
+  specialHouse1: {fileID: 100008, guid: 5ab5c3abc59d58d4493d2b7ad0cc2551, type: 3}
+  specialHouse2: {fileID: 100008, guid: b7baff2feea19e34dbed82f814ea26d1, type: 3}
+  powerup: {fileID: 100002, guid: bfa98c4b9169d044e9e23c50a179a931, type: 3}
+  mine1: {fileID: 100002, guid: efdcc9575816a344d88ad1764bcf0c9d, type: 3}
+  mine2: {fileID: 100002, guid: 194bfacb531946244b09580bfab0bba0, type: 3}
+  rock: {fileID: 100000, guid: 04ea6f4efb181b143b27429a30d65f6c, type: 3}
+  playerScore1: {fileID: 0}
+  playerScore2: {fileID: 0}
+  gameOver: {fileID: 0}
+  currentPlayer: {fileID: 0}
+  currentPowerUp1: {fileID: 0}
+  currentPowerUp2: {fileID: 0}
+  spawnRate: 1
+  matchController: {fileID: 0}
+  numberOfObstacles: 2
