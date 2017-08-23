@@ -16,6 +16,7 @@ public class MatchController : NetworkBehaviour {
 	public PlayerController clientPlayer;
 	public CanvasController canvasController;
 	public ScoreManager scoreManager;
+	public AudioSource bgm;
 
 	[SyncVar]
 	public string hostName;
@@ -63,6 +64,7 @@ public class MatchController : NetworkBehaviour {
 			clientPlayer = null;
 		if (players.Contains(pc))
 			players.Remove(pc);
+		bgm.Stop ();
 	}
 		
 	void Configure(){
@@ -94,6 +96,8 @@ public class MatchController : NetworkBehaviour {
 		// for debugging
 		hostName = hostPlayer.playername;
 		clientName = clientPlayer.playername;
+
+		bgm.Play ();
 
 		this.PostNotification (MatchReady);
 	}

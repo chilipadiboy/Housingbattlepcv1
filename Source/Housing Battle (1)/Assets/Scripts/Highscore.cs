@@ -104,7 +104,6 @@ public class Highscore : MonoBehaviour {
         else
         {
             Debug.Log("Error downloading score " + downloadURL.error);
-            downloadHighscores();
         }
     }
 

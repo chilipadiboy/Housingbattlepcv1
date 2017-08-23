@@ -500,6 +500,7 @@ public class GameController : NetworkBehaviour {
 				gameOver.text = "Draw!";
 				matchController.GameOver ();
 			}
+
 		}
 
 		CmdSpawnPowerUp();

@@ -15,6 +15,7 @@ public class displayhighscores : MonoBehaviour {
             leaderBoardText[i].text = i + 1 + ". Loading score...";
         }
 
+		Pusername = GameObject.Find ("Username").GetComponent<Username> ();
         leaderBoardFunctions = GetComponent<Highscore>();
         StartCoroutine("RefreshScores");
         StartCoroutine("GetOwnScore");
@@ -22,20 +23,16 @@ public class displayhighscores : MonoBehaviour {
 	
     public void OnScoresDownloaded(leaderScore[] highscoreList)
     {
-        for (int i=0;i<leaderBoardText.Length; i++)
+        for (int i=0;i<5; i++)
         {
             leaderBoardText[i].text = i + 1 + ". ";
-            if (highscoreList.Length > i)
-            {
-                leaderBoardText[i].text += highscoreList[i].username + " - " + highscoreList[i].score;
-            }
+            leaderBoardText[i].text += highscoreList[i].username + " - " + highscoreList[i].score;
         }
     }
 
 	public void OnOwnScoresDownloaded(int score)
     {
-        leaderBoardText[5].text ="Your Current Score" + ": ";
-		leaderBoardText[5].text += score;
+        leaderBoardText[5].text ="Your Current Score: " + score;
     }
     IEnumerator RefreshScores()
     {
@@ -50,6 +47,7 @@ public class displayhighscores : MonoBehaviour {
     {
         while (true)
         {
+			Debug.Log("User is " + Pusername.username);
 			leaderBoardFunctions.getSingleHighscore(Pusername.username);
             yield return new WaitForSeconds(20);
         }
